@@ -1,3 +1,6 @@
+## Create project.
+    $ django-admin startproject <project_name>
+    
 ## Create Django app
     Django app is a component that performs a certain task.
     

@@ -16,6 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from django import views
+
 urlpatterns = [
+    url(r'^$', views.index, name='index'),
+    # P is a named group
+    url(r'^item/(?P<id>\d+)', views.item_detail, name='item_detail'),
+
     url(r'^admin/', admin.site.urls),
 ]
