@@ -20,6 +20,7 @@ from django_app import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    # match /item/2
     # P is a named group
     url(r'^item/(?P<id>\d+)', views.item_detail, name='item_detail'),
 
