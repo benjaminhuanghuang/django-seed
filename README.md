@@ -1,19 +1,17 @@
-Django Project Template
-=====================================
+# Django Seed Project
+
 Code to demonstrate 
 
 - Project template for Django Project.
 
-Requirements
-------------
+## Requirements
 
 - Python 2.7 or 
 - virtualenv 
 - git
 - Network connection (only to install the application)
 
-Setup
------
+## Setup
 
 **Step 1**: Clone the git repository
 
@@ -22,22 +20,22 @@ Setup
 
 **Step 2**: Create a virtual environment.
 
-For python2 :
+- For python2 :
 
     $ virtualenv venv
     $ source venv/bin/activate
     (venv) $ pip install -r requirements.txt
 
-For python3 :
+- For python3 :
 
     $ brew install python3
     $ pyvenv venv3
     $ source venv3/bin/activate
     (venv) $ pip install -r requirements.txt
 
-**Step 3**: Create project.
-    $ django-admin.py startproject my_blog
-    $ python manage.py startapp article
+
     
-**Step 4**: Start Server.
+## Usage
+    $ cd <project_name>
+    $ python manage.py            
     $ python manage.py runserver
