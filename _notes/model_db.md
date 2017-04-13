@@ -5,4 +5,4 @@
         quantity = models.IntegerField()
         
 ## Data type
-<img src='https://github.com/benjaminhuanghuang/django-seed/_notes/data_type.png' title='tippy' width='' alt='tippy' />
+<img src='https://github.com/benjaminhuanghuang/django-seed/blob/master/_notes/data_type.png' title='tippy' width='' alt='tippy' />
